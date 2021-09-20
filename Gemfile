@@ -11,6 +11,7 @@ gem 'pg', '~> 1.1'
 gem 'puma', '~> 5.0'
 # Use SCSS for stylesheets
 gem 'bootstrap-sass', '~> 3.3.6'
+gem 'bootstrap_form'
 gem 'sass-rails', '>= 6'
 gem 'jquery-rails'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker

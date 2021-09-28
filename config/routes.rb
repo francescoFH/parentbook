@@ -10,4 +10,12 @@ Rails.application.routes.draw do
   end
 
   root to: 'pages#index'
+
+  resources :posts do
+    collection do
+      get 'cat1'
+      get 'cat2'
+      get 'cat3'
+    end
+  end
 end
